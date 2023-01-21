@@ -1,0 +1,71 @@
+{
+  "name": "@vheemstra/oxipng-bin",
+  "version": "1.0.0",
+  "oxipng_version": "8.0.0",
+  "description": "oxipng bin-wrapper that makes it seamlessly available as a local dependency",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vHeemstra/oxipng-bin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vHeemstra/oxipng-bin/issues"
+  },
+  "author": {
+    "name": "Philip van Heemstra",
+    "email": "vanheemstra@gmail.com",
+    "url": "https://github.com/vheemstra"
+  },
+  "maintainers": [
+    {
+      "name": "Philip van Heemstra",
+      "email": "vanheemstra@gmail.com",
+      "url": "https://github.com/vheemstra"
+    }
+  ],
+  "type": "module",
+  "exports": "./index.js",
+  "types": "./index.d.ts",
+  "bin": {
+    "oxipng": "cli.js"
+  },
+  "engines": {
+    "node": "^14.13.1 || >=16.0.0"
+  },
+  "scripts": {
+    "postinstall": "node lib/install.js",
+    "test": "ava --timeout=180s",
+    "lint:test": "xo && ava --timeout=180s"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "cli.js",
+    "lib",
+    "vendor/linux",
+    "vendor/macos",
+    "vendor/win"
+  ],
+  "keywords": [
+    "imagemin",
+    "compress",
+    "image",
+    "img",
+    "png",
+    "minify",
+    "optimize",
+    "oxipng"
+  ],
+  "dependencies": {
+    "bin-wrapper": "^4.0.1",
+    "os-filter-obj": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "^4.2.0",
+    "bin-check": "^4.1.0",
+    "compare-size": "^3.0.0",
+    "execa": "^6.1.0",
+    "tempy": "^3.0.0",
+    "xo": "^0.48.0"
+  }
+}
