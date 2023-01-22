@@ -46,7 +46,7 @@ oxipng --help
 ## License & Info
 
 MIT © [Imagemin](https://github.com/imagemin)<br>
-[OxiPNG](https://github.com/shssoichiro/oxipng) by [Josh Holmer](https://github.com/shssoichiro) (Open-source software, distributed under the MIT license.)<br>
+MIT © [OxiPNG](https://github.com/shssoichiro/oxipng) by [Josh Holmer](https://github.com/shssoichiro)<br>
 This package is made by [Philip van Heemstra](https://github.com/vHeemstra)<br>
 Based on [jpegtran-bin](https://github.com/imagemin/jpegtran-bin) by [Sindre Sorhus](https://github.com/sindresorhus)<br>
 [Info on building **oxipng** binaries](https://github.com/vHeemstra/oxipng-bin/blob/main/vendor/build-oxipng.md)
