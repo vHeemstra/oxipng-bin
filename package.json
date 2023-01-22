@@ -1,5 +1,5 @@
 {
-  "name": "@vheemstra/oxipng-bin",
+  "name": "oxipng-bin",
   "version": "1.0.0",
   "oxipng_version": "8.0.0",
   "description": "oxipng bin-wrapper that makes it seamlessly available as a local dependency",
